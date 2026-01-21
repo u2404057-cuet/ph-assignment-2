@@ -30,6 +30,9 @@ i{
 .box-color{
     background-color: rgba(53, 17, 101, 0.400);
 }
+.time{
+    color:rgb(0, 255, 136)
+}
 
 nav{
     border-bottom: 2px solid #412567;
@@ -88,6 +91,7 @@ nav{
 .why{
     background-color: #230E3D;
     margin-top: 120px;
+    padding-bottom: 120px;
     padding-top: 120px;
     color: white;
 }
@@ -97,6 +101,17 @@ nav{
     width: 80%;
     gap: 30px;
     margin: 0 auto;
+}
+.episode .episode-container .epi-card .yt-img{
+    width: 300px;
+    height: 440px;
+
+}
+.episode .episode-container{
+    text-align: center;
+}
+.yt-text{
+    background-color: #230E3D;
 }
 
 @media screen and (max-width: 576px){
@@ -129,4 +144,27 @@ nav{
     .why .why-container{
         grid-template-columns: 1fr;
     }
+   .episode .episode-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   .epi-card{
+    flex-direction: column;
+    margin: 0 auto;
+   }
+   .yt-img{
+    margin-top: 2px;
+    width: 80%;
+   }
+   .episode .episode-container h1{
+    margin-bottom: 50px;
+   }
+   .episode .episode-container .epi-card{
+    margin: 0;
+   }
+   .episode .episode-container .epi-card .yt-img{
+    width: 90%;
+    margin: 0 auto;
+   }
 }
