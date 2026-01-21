@@ -181,11 +181,17 @@ nav{
     .about{
         width: 90%;
     }
+    .about h1{
+        margin-bottom: 16px;
+    }
     .rating-container{
         flex-wrap: wrap;
     }
     .why-container{
         grid-template-columns: 1fr;
+    }
+    .why h1{
+        font-size: 2em;
     }
    .episode .episode-container{
     display: flex;
@@ -233,5 +239,8 @@ nav{
     width: 70%;
     justify-content: center;
     gap: 20px;
+   }
+   .text-container .buttons{
+    font-size: 0.90em;
    }
 }
