@@ -9,8 +9,17 @@ body{
     background-color: #1A0B2E;
 }
 .grad-text{
-    background: linear-gradient(45deg, #F7E93F, #FB09B4, #9100F8);
-    -webkit-background-clip: text;
+    background: linear-gradient(45deg,
+    #F7E93F 0%,
+    #F7E93F 30%,
+
+    #FB09B4 45%,
+    #FB09B4 60%,
+
+    #9100F8 75%,
+    #9100F8 100%
+  );
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .green-btn{
@@ -115,6 +124,12 @@ nav{
 }
 .mic-container{
     margin: 0 30px;
+}
+.media i{
+    border: 0.5px solid rgba(255, 255, 255, 0.499);
+    padding: 10px;
+    border-radius: 50%;
+
 }
 
 @media screen and (max-width: 576px){
