@@ -113,6 +113,9 @@ nav{
 .yt-text{
     background-color: #230E3D;
 }
+.mic-container{
+    margin: 0 30px;
+}
 
 @media screen and (max-width: 576px){
     nav .links, nav button{
@@ -141,7 +144,7 @@ nav{
     .rating-container{
         flex-wrap: wrap;
     }
-    .why .why-container{
+    .why-container{
         grid-template-columns: 1fr;
     }
    .episode .episode-container{
